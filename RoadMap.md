@@ -2,5 +2,5 @@
 
 1. [CodeCademy Ruby](https://www.codecademy.com/learn/learn-ruby)
 Done! 
-[!CodeCademy Ruby](./img.png)
+![CodeCademy Ruby](img1.png)
 2. SQL

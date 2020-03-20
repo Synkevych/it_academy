@@ -1,3 +1,15 @@
+## Current versions of tools
+
+> **Ruby 2.4(39%) or 2.5(22)**  
+> **Rails 5.1(38%) or 4.2(34%)**  
+> **Puma** Servers in production  
+> **Bundler** Gem management  
+> **RVM** Ruby version managers  
+> **Rspec** Unit-testing frameworks  
+> **RubyMine** IDEs  
+
+---
+
 This is a beginning of the course description 
 
 1. Loops & Iterators

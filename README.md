@@ -6,27 +6,37 @@ This is a beginning of the course description
 4. Sorting
 5. Lambdas - nameless methods
 
+---
 
-Gem Bundler
-Nginx 
-Cubernetis
-Sqlite 
-RVM - Ruby version Manger 
-Redis
-SQL SErver
-jQuery
-Puma
+### Tools
+
+- Gem Bundler
+- Nginx 
+- Cubernetis
+- Sqlite 
+- RVM - Ruby version Manger 
+- Redis
+- SQL SErver
+- jQuery
+- Puma
+
+---
+
+### Answer to everyday questions
 
 1. Что ты делал вчера: codecademy, koans 
 2. Проблемы / Сложности / 
 3. Что ты планируешь делать завтра 
 
-класи / функції / хеши / функции / класи / модули 
+> класи / функції / хеши / функции / класи / модули 
 
-більш звичний для мене спосіб розбиратися в комплексі
+--- 
 
-Континіоус интегрейшен
+### What to read,
 
-Нормалізація 
-транзакция
-SQL
+```diff
++ Continuous Integration (CI)
+- Database normalization (in SQL)
+! Transactions (ACID) 
+# SQL
+```

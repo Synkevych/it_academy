@@ -9,6 +9,7 @@
 ![CodeCademy Ruby](img1.png)
 
 2. SQL
+[CodeCademy SQL](https://www.codecademy.com/courses/learn-sql)
 ```diff
 - require! 
 ```

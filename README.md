@@ -1,5 +1,4 @@
-Виталий Кулинский - Ментор, 
-Юра - експертом 3,5 года в софт серф
+This is a beginning of the course description 
 
 1. Loops & Iterators
 2. Methods

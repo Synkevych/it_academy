@@ -1,0 +1,12 @@
+- length 
+- each
+- times
+- reverse 
+- upcase
+- downcase
+- collect => like map 
+- sort! => sorting number and strings 
+- gsub! => global substitution 
+- capitalize => capitalize the first letter of a string
+- puts "Text #{variable name}"
+- gets.chomp => gets input from user and removes the blank line (or newline)

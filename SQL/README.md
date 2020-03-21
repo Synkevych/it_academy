@@ -35,6 +35,14 @@
 - DELET FROM -> WHERE 
 - AS -> allows to rename a column or table using alias
 - DISTINCT -> filters out all duplicate values in the columns 
+- WHERE -> clause filters the result set to only include rows where the following condition is true
+- LIKE -> to compare similar values (sign: _,%)
+- BETWEEN -> accepts two values, text, number or dates
+- AND -> where both conditions is true 
+- OR -> displays if any condition is true
+- ORDER BY -> sorting the result, goes after WHERE 
+  - SEST -> to sort in descending order (Z-A)
+  - ASC -> to sort in ascending order (A-Z)
 
 ---
 
@@ -80,6 +88,43 @@ FROM movies;
 SELECT DISTINCT year
 FROM movies;
 
+SELECT *
+FROM movies 
+WHERE imdb_rating < 5;
+
+SELECT *
+FROM movies
+WHERE name LIKE 'Se_en';
+
+SELECT *
+FROM movies
+WHERE name LIKE 'The %';
+
+-- select all movies without an IMDb rating
+
+SELECT name
+FROM movies
+WHERE imdb_rating IS NULL;
+
+-- select all movies that released in the 1970's
+
+SELECT *
+FROM movies
+WHERE year BETWEEN 1970 AND 1979;
+
+-- select horror movie made prior to 1985
+
+SELECT *
+FROM movies
+WHERE year < 1985
+  AND genre = "horror";
+
+-- all romance OR comedy movies 
+
+SELECT *
+FROM movies
+WHERE genre = "romance"
+  OR genre = 'comedy';
 ```
 
 ---

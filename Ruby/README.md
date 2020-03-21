@@ -1,4 +1,4 @@
-# Ruby is ... 🧐
+### Ruby is ... 🧐
 
 1. Why Ruby
 	- high-level - look a lot like a regular English.

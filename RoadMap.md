@@ -16,8 +16,17 @@
 
 
 3. SQLite
+
 ```diff
-! recommend! 
+! recommend 
 ```
 
-4. 
+4. RSpec
+RSpec is purely BBD
+In RSpec tests are called specs.
+Spec files are must end with _spec.rb
+
+```diff
+- require! 
+```
+

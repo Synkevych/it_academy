@@ -6,13 +6,14 @@
 + Done! 
 ```
 
-![CodeCademy Ruby](img1.png)
+![CodeCademy Ruby](Ruby/img1.png)
 
-2. SQL
-[CodeCademy SQL](https://www.codecademy.com/courses/learn-sql)
+2. [CodeCademy SQL](https://www.codecademy.com/learn/learn-sql)
 ```diff
-- require! 
++ Done! 
 ```
+![CodeCademy SQL](SQL/img1.png)
+
 
 3. SQLite
 ```diff

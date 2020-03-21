@@ -43,6 +43,9 @@
 - ORDER BY -> sorting the result, goes after WHERE 
   - SEST -> to sort in descending order (Z-A)
   - ASC -> to sort in ascending order (A-Z)
+- LIMIT [num]-> muximum number of rows the result set will have
+- CASE -> if-then SQL's logic 
+
 
 ---
 
@@ -125,6 +128,13 @@ SELECT *
 FROM movies
 WHERE genre = "romance"
   OR genre = 'comedy';
+
+--- show the top 3 highest rated movie
+SELECT *
+FROM movies 
+ORDER BY imdb_rating DESC
+LIMIT 3;
+
 ```
 
 ---

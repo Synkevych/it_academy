@@ -1,6 +1,7 @@
 - length 
 - each
 - times
+- upto -> 1.upto(9)
 - reverse 
 - upcase
 - downcase
@@ -10,3 +11,6 @@
 - capitalize => capitalize the first letter of a string
 - puts "Text #{variable name}"
 - gets.chomp => gets input from user and removes the blank line (or newline)
+- select 
+- map
+- inject == reduce 

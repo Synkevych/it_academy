@@ -13,4 +13,8 @@
 - gets.chomp => gets input from user and removes the blank line (or newline)
 - select 
 - map
-- inject == reduce 
+- inject == reduce
+- object_id -> показывает уникальный идентификатор объекта
+- new - исп. для создания объекта существующего класса
+- freeze - делает объект неизменяемым
+

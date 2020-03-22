@@ -14,11 +14,15 @@
 ---
 
 > Объект - экземпляр класса объекта  
+> термины "модуль" и "примись" идентичны
 > Клас - абстрактный тип  
 > Если Б наследует А, то А - суперклас, базовый или родительский, Б - подкласс, дочерный или производный. 
 > В подкласса есть возможность вызвать из перепределенного метода метод базового класса с тем же именм. 
 > Для строк есть специальный синтаксис: %w[Jan Feb Apr]
 > Хеши - ассоциативные массивы или словари, в качестве ключа может быть екз. класса Symbol.
+> Math::PI - один из способов использования модулей
+> load - операция читает файл и исполняет его в текущем контексте
+> require - аналогична load, но не загружает файл если он уже был загружен  
 
 ---
 
@@ -72,14 +76,27 @@
 	- =begin / =end multi-line comments
 	- ! modifies the value contained whithin the variable itself
 	- ? 
-	- { } is the same as do end 
+	- { } is the same as do end
+
+---
+
+1. Error message -> throw new exception
+  - raise "Text to be displayed" 
+  - raise ArgumentError, "Text to be displayed"
+  - raise ArgumentError.new("Text to be displayed")
+  - begin
+  - # text ...
+  - end
+  - rescue => variable - дополнительно можно указать тип ошибки
 
 1. Control flow
 	- if statement => should be indented two spaces
 		- if user_num => 0
 		- elsif user_num > 0 
 		- else "print this"
-		- end 
+		- end
+    - while || until -> redo ключевое слово как retry
+    - next -> переход на конец самого внутреннего цикла 
 
 ```ruby
 my_num = 12

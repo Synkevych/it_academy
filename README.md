@@ -51,10 +51,13 @@
 ### What to read,
 
 ```diff
+- работа с git
+- заполнить документы
 + Continuous Integration (CI)
 - Database normalization (in SQL)
 ! Transactions (ACID) 
 # SQL
+
 ```
 ---
 

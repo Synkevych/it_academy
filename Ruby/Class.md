@@ -3,9 +3,9 @@ Everything in Ryby is an object
 
 ### Local or Class Variable and Global Variable
 
-- @name - an instance variable of the class
 - Scope - the context in which it's visible to the program
-- @@name - class itself variable
+- @name - an instance variable of the class, заново создаается в каждом объеке
+- @@name - class itself variable, областю видимости является весь класс
 - $name - global variable
 
 ### Access control 

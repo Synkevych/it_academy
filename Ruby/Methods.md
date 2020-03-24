@@ -22,3 +22,6 @@
 - defined? - определяет использ. ли идентификатор с данным именем 
 - class - покажет тип объекта
 - is_a ==  instanceof in JavaScript
+- any? { |x| x } => проверка истенности одного из елементов 
+- all? { |x| x % 2 == 0 }
+- from(element_number)

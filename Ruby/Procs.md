@@ -1,6 +1,8 @@
 # Procs 
 
 A proc is a saved block we can use over and over.
+Also similar to the ampersand operator, a Proc object preceded by an ampersand during a method call will be replaced by the block that it contains. Yield may then be used.
+
 
 ```ruby 
 multiply_of_3 = Proc.new do |n|

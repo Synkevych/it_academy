@@ -1,19 +1,29 @@
 # Ruby is an object-oriented programming language
 Everything in Ryby is an object
 
-Local or Class Variable and Global Variable
+### Local or Class Variable and Global Variable
 
 - @name - an instance variable of the class
 - Scope - the context in which it's visible to the program
 - @@name - class itself variable
 - $name - global variable
 
-- public 
-- private
+### Access control 
+
+- public - by default 
+- private - can be used only within the class definition, for internal usage. If you try to call method you receive "NoMethodError".
+- protecred
 
 - attr_writer
 - attr_reader 
 - attr_accessor  => attr_reader + attr_writer
+
+---
+
+### Работа с классами и модулями:
+
+> load - операция читает файл и исполняет его в текущем контексте
+> require - аналогична load, но не загружает файл если он уже был загружен  
 
 ```ruby 
 class Language

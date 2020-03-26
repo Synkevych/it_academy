@@ -36,7 +36,9 @@
 - AS -> allows to rename a column or table using alias
 - DISTINCT -> filters out all duplicate values in the columns 
 - WHERE -> clause filters the result set to only include rows where the following condition is true
-- LIKE -> to compare similar values (sign: _,%)
+- LIKE -> to compare similar values (sign: _,% - zeor or more )4
+- NOT -> виключити рядки з вказаними параметрами 
+- IN - allow you - 
 - BETWEEN -> accepts two values, text, number or dates
 - AND -> where both conditions is true 
 - OR -> displays if any condition is true
@@ -45,7 +47,6 @@
   - ASC -> to sort in ascending order (A-Z)
 - LIMIT [num]-> muximum number of rows the result set will have
 - CASE -> if-then SQL's logic 
-
 
 ---
 
@@ -134,7 +135,6 @@ SELECT *
 FROM movies 
 ORDER BY imdb_rating DESC
 LIMIT 3;
-
 ```
 
 ---

@@ -58,10 +58,15 @@ class Message
 end
 
 class Email < Message
+# we inherit @@messages_sent from class Message
+# also overwrite initialize method 
   def initialize(from, to)
     @from = from
     @to = to
     super
   end
 end
+
+m1 = Email.new("roman", "SoftServe")
+puts m1.inbox
 ```

@@ -1,6 +1,10 @@
 # To explicit module use 
 
 Модуль должен быть в той же папке что и файл который его использует
+Module are similar to classes
+Modules implement the mixin facility. 
+Module can have no instances
+Module can have no subclasses 
 
 You can use module like 
 - puts Math::PI

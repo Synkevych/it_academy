@@ -9,7 +9,7 @@ Everything in Ryby is an object
 - $name - global variable
 
 ### Access control 
-x 
+
 - **public** - by default 
 - **private** - can be used only within the class definition, for internal usage. If you try to call method you receive "NoMethodError".
 - **protecred** - can be called with, or without, an explicit receiver, but that receiver is always *self* or an object that inherits from self(ex:is_a?(self)).
@@ -97,5 +97,38 @@ class Account
     @balance = balance
   end
 end
-
 ```
+
+### To set the info to the class 
+```ruby
+class Bottle
+    def capacity
+        @capacity
+    end
+
+    def capacity=(new_cap)
+        @capacity = new_cap
+    end
+end
+
+bottle = Bottle.new
+bottle.capacity = 10
+```
+
+
+### The way of using attr_accessor
+```ruby
+class Bottle
+  attr_accessor :capacity, :contents
+end
+
+bottle = Bottle.new
+bottle.inspect #=> show what we have inside class
+bottle.capacity = 0.5
+# with this symtax we have ability to set for accesor information and get this info
+bottle.contents = 'milk'
+bottle.inspect #=> now class have capacity and contents
+puts bottle.capacity
+puts bottle.contents
+```
+

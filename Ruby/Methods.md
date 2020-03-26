@@ -5,14 +5,16 @@
 - reverse 
 - upcase
 - downcase
-- collect => like map 
+- collect => like map
+- collect! 
 - sort! => sorting number and strings 
 - gsub! => global substitution 
 - capitalize => capitalize the first letter of a string
 - puts "Text #{variable name}"
 - gets.chomp => gets input from user and removes the blank line (or newline)
 - select 
-- map
+- map   a.map.with_index {|x,i| x * i } => 
+- map!
 - inject == reduce
 - object_id -> показывает уникальный идентификатор объекта
 - new - исп. для создания объекта существующего класса
@@ -25,3 +27,4 @@
 - any? { |x| x } => проверка истенности одного из елементов 
 - all? { |x| x % 2 == 0 }
 - from(element_number)
+- try_convert -> Array.try_convert([1]) => [1] || Array.try_convert("1") => nil

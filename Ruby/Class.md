@@ -9,10 +9,10 @@ Everything in Ryby is an object
 - $name - global variable
 
 ### Access control 
-
-- public - by default 
-- private - can be used only within the class definition, for internal usage. If you try to call method you receive "NoMethodError".
-- protecred - can be called with, or without, an explicit receiver, but that receiver is always *self* or an object that inherits from self(ex:is_a?(self)).
+x 
+- **public** - by default 
+- **private** - can be used only within the class definition, for internal usage. If you try to call method you receive "NoMethodError".
+- **protecred** - can be called with, or without, an explicit receiver, but that receiver is always *self* or an object that inherits from self(ex:is_a?(self)).
 
 - attr_writer
 - attr_reader 

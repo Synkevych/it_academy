@@ -21,6 +21,8 @@ Ruby has 4 type of functions:
 
 ---
 
+!(Ruby Inside)[/Ruby/Ruby_inside.PNG]
+
 ### ООП
 
 Объект - сущность служащая контейнером для хранения и управляющая доступом к этим данным. 

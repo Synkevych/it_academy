@@ -1,4 +1,6 @@
-# This is a beginning of the course description
+# It Academy
+
+## This is a beginning of the course description
 
 Don’t let people fool you into believing that Ruby on Rails is easy to learn. It’s not! It’s one of the best and most effective frameworks to develop web applications, but it takes time to understand and master. The worst mistake of all is to not learn Ruby before diving into Ruby on Rails. To avoid this, the book starts with the basics of Ruby. You will not become a Ruby guru after reading it, but you’ll understand the basic ideas, which is most important.  
 
@@ -20,19 +22,21 @@ Snake_case for naming variable.
 - 1 Agile methodology
 - 2 Git and
 - 3 DataBase
-- 4 Ruby Syntax
+- 4 Ruby Synta
+- 5 Get started with Rails
 
 ---
 
 ### Current versions of tools
 
-> **Ruby 2.4(39%) or 2.5(22)**  
-> **Rails 5.1(38%) or 4.2(34%)**  
+> **Ruby 2.6.5 - 2.4(39%) or 2.5(22)**  
+> **Rails 6 - 5.1(38%) or 4.2(34%)**  
 > **Puma** Servers in production  
 > **Bundler** Gem management  
 > **RVM** Ruby version managers  
 > **Rspec** Unit-testing frameworks  
 > **RubyMine** IDEs  
+> **Git** 2.26.0
 
 ---
 
@@ -49,10 +53,10 @@ Snake_case for naming variable.
 ### Tools
 
 - Gem Bundler
-- Nginx 
+- Nginx
 - Cubernetis
-- Sqlite 
-- RVM - Ruby version Manger 
+- Sqlite
+- RVM - Ruby version Manger
 - Redis
 - SQL Server
 - jQuery
@@ -63,37 +67,29 @@ Snake_case for naming variable.
 
 ### Answer to everyday questions
 
-1. Что ты делал вчера ? 
+1. Что ты делал вчера ?
 2. Проблемы, Сложности возникшие в работе.
-3. Что ты планируешь делать сегодня ? 
+3. Что ты планируешь делать сегодня ?
 
-gitlab изучать 
-Книга Путь Руби 
-git - проблемы были, пул реквесты, ребейс не делать 
-git push --froce update
-codewars
+> класы / функции / хеши  / модули / методы / проки /
 
-Почему Ruby on Rails такой меееедлеееный? 
-Почему на курсах в codemy и др. изучают Rails а по руби вообще курсов нет. 
+---
 
-> класы / функции / хеши  / модули / методы / проки / 
-
---- 
-
-### What to read,
+### What to read
 
 ```diff
 - работа с git
 - заполнить документы
 + Continuous Integration (CI)
 - Database normalization (in SQL)
-! Transactions (ACID) 
+! Transactions (ACID)
 # SQL
-
 ```
+
 ---
 
 ### Why it worth learning Ruby these days?
+
 ```diff
 + Набор инструментов позволяет быстро запускать проекты
 + Требуемый стек = full-stack, который увеличевает взаимозаменяемость в команде
@@ -106,8 +102,7 @@ codewars
 - медленное внедрение новых возможностей языка
 ```
 
-
-### Books: 
+### Books:
 
 - The Ruby Programming Language by David Flanagan and Yukihiro Matsumoto
 - Язык программирования Ruby

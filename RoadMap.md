@@ -1,9 +1,9 @@
-## Tasks / Homeworks 
+## Tasks / Homeworks
 
 1. [CodeCademy Ruby](https://www.codecademy.com/learn/learn-ruby)  
 
 ```diff
-+ Done! 
++ Done!
 ```
 
 ![CodeCademy Ruby](Ruby/img1.png)

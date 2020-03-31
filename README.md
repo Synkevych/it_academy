@@ -1,12 +1,26 @@
-## This is a beginning of the course description 
+# This is a beginning of the course description
 
----
+Don’t let people fool you into believing that Ruby on Rails is easy to learn. It’s not! It’s one of the best and most effective frameworks to develop web applications, but it takes time to understand and master. The worst mistake of all is to not learn Ruby before diving into Ruby on Rails. To avoid this, the book starts with the basics of Ruby. You will not become a Ruby guru after reading it, but you’ll understand the basic ideas, which is most important.  
+
+It is easy to progran in Ruby, bur Ruby is not simple language.
+
+There is one simple rule in the Ruby community: the fewer brackets, the cooler you are!
+But you won’t get a medal for using fewer brackets. decide for yourself what makes you happy.
+
+You can think of a class as a collection of methods.
+
+Private methods only call a method within its own class or own instance.
+
+But it wouldn’t be Ruby if you couldn’t do it shorter, right?
+
+Snake_case for naming variable.
 
 ### Lessons:
-- 1 Agile methodology
-- 2 Git and 
-- 3 DataBase 
 
+- 1 Agile methodology
+- 2 Git and
+- 3 DataBase
+- 4 Ruby Syntax
 
 ---
 
@@ -95,5 +109,6 @@ codewars
 
 ### Books: 
 
+- The Ruby Programming Language by David Flanagan and Yukihiro Matsumoto
 - Язык программирования Ruby
 - Путь Ruby - третье издание / 2014 / Фултон Хэл, Арко Андре

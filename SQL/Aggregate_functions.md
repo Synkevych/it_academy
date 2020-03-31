@@ -11,7 +11,7 @@ They need to perform calculations using SQL.
 
 ---
 
-```sql 
+```sql
 --- count = calculate the rows 
 
 SELECT COUNT(*)
@@ -28,7 +28,7 @@ FROM fake_apps;
 SELECT ROUND(AVG(price), 2)
 FROM fake_apps;
 
---- count the app by price 
+--- count the app by price
 
 SELECT price, COUNT(*)
 FROM fake_apps

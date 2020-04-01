@@ -20,7 +20,7 @@ Snake_case for naming variable.
 ### Lessons:
 
 - 1 Agile methodology
-- 2 Git and
+- 2 Git and Version Control System
 - 3 DataBase
 - 4 Ruby Synta
 - 5 Get started with Rails
@@ -107,3 +107,35 @@ Snake_case for naming variable.
 - The Ruby Programming Language by David Flanagan and Yukihiro Matsumoto
 - Язык программирования Ruby
 - Путь Ruby - третье издание / 2014 / Фултон Хэл, Арко Андре
+
+### Result Code and Phrase
+
+| Code | Type | Phrase |
+| --- | --- | --- |
+| 1xxx | Inforamartional | Not Done Yet |
+| 2xxx | Success | You win |
+| 3xxx | Redirection | You lose but try again |
+| 4xxx | Client Error | You lose, your fault |
+| 5xxx | Server Error | You lose, my bad |
+
+### Web applications architecture
+
+- 2 Tiered: Client / Web Browser -> Web Server
+- 3 Tiered: Client / Web Browser -> Web Server -> DataBase server
+- front-end -> presentation layer
+- back-end -> data access layer
+
+### Continuous Integration
+
+Is a software engineering practice in which isolated changes are immediately tested reported on when they are added to a larger code base.  
+
+A software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day.  
+
+Rules for CI 
+
+- Maintain a single repository
+- Automate the build 
+- Make your build self-testing
+- Automate deployment
+- Make your build self-testing
+- Every commit should build the mainline on an integration machine

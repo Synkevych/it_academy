@@ -131,11 +131,30 @@ Is a software engineering practice in which isolated changes are immediately tes
 
 A software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day.  
 
-Rules for CI 
+Rules for CI
 
 - Maintain a single repository
-- Automate the build 
+- Automate the build
 - Make your build self-testing
 - Automate deployment
 - Make your build self-testing
 - Every commit should build the mainline on an integration machine
+
+### ORM - Object Rational Mapping (объектно-реляционное отображение)
+
+Это техника, соединяющая сложные объекты приложения с таблицами в системе управления реляционными базами данных. С помощью ORM, свойства и взаимоотношения этих объектов приложения могут быть с легкостью сохранены и получены из базы данных без непосредственного написания выражений SQL, и, в итоге, с меньшим суммарным кодом для доступа в базу данных.  
+
+### Ruby on Rails
+
+- **Dont Repeat Yourself** - каждый кусок иннформации должен иметь единственное, неизбыточное, аторитетное представление в системе.
+- **Convention Over Configuration** у Rails есть мнения о наилучших способах делать множество вещей в веб-приложении, и по умолчанию выставлены эти соглашения, вместо того, чтобы заставлять вас по мелочам править многочисленные конфигурационные файлы.
+
+- Active Records is the M in MVC - ответственная за представление бизнес-логики и данных, фреймворк - **ORM**.  
+Упрощает создание и использование бизнес-объектов, данные которых требуют персистентного хранения в базе данных.  
+Как читать и писать базу данных.  
+
+Which is the layer of the system responsible for representing business data and logic
+
+- **routes.rb** хранит информацию маршрутов, он говорит Rails как соединять входящие запросы с контроллерами и экшенами.
+- ресурс *resource :articles* это термин обозначающий коллекцию схожих объектов, статьи, люди, и т.д. Можно использовать CRUID для управления ресурсами. 
+- **Контроллер** унаследованый класс от ApplicationController. экшенами  контроллеров могут юыть только *public* методы.

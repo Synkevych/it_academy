@@ -21,9 +21,11 @@ Snake_case for naming variable.
 
 - 1 Agile methodology
 - 2 Git and Version Control System
-- 3 DataBase
+- 3 DataBase & SQL Basics
 - 4 Ruby Synta
 - 5 Get started with Rails
+- 6 RoR Routes
+- 7 Types of Software Testing
 
 ---
 
@@ -107,6 +109,7 @@ Snake_case for naming variable.
 - The Ruby Programming Language by David Flanagan and Yukihiro Matsumoto
 - Язык программирования Ruby
 - Путь Ruby - третье издание / 2014 / Фултон Хэл, Арко Андре
+- 2 Ruby on Rails Tutorial Learn Rails by Example
 
 ### Result Code and Phrase
 
